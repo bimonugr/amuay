@@ -1,46 +1,266 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amuay</title>
-    <link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Amuay Wildlife</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <!-- Icons -->
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
 <body>
+	<!--header--->
+	<header>
+		<a href="#" class="logo">AMUAY</a>
+		<!-- <img src="img/amuay white.png" alt="AMUAY Logo" class="logo"> -->
+		<div class="bx bx-menu" id="menu-icon"></div>
+		<ul class="navbar">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#package">Package</a></li>
+			<li><a href="#destination">Destination</a></li>
+			<li><a href="#contact">Contact Us</a></li>
+		</ul>
+	</header>
 
-    <!-- header section -->
-    <header>
-        <a href="#" class="logo">Travel</a>
-        <div class="bx bx-menu" id="menu-icon"></div>
+	<!--Home section--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h1>Amuay<br>Wildlife Park</h1>
+			<p>Discover nature's symphony <br> At the heart of Venezuela</p>
+			<a href="#" class="home-btn">Let's go now</a>
+		</div>
+	</section>
 
-        <ul class = "navbar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Package</a></li>
-            <li><a href="#">Destination</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Menu5</a></li>
-        </ul>
-    </header>
-    <!-- Home section -->
-    <section class="home" id="home">
-        <div class="home-text">
-            <h1>Discover Nature's Symphony at<br>Amuay Wildlife Park</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eos veniam soluta nos recusandae eius?</p>
-            <a href="#" class="home-btn">Lets go now</a>
-        </div>
+	<!--container--->
+	<section class="container">
+		<div class="text">
+			<h2>Also featured in</h2>
+		</div>
 
-    </section>
+		<div class="row-items">
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/cnn.png">
+				</div>
+				<h4>CNN</h4>
+				<p>Read Review</p>
+			</div>
 
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/ng.png">
+				</div>
+				<h4>National Geographic</h4>
+				<p>Read Review</p>
+			</div>
+
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/ny.png">
+				</div>
+				<h4>New York Times</h4>
+				<p>Read Review</p>
+			</div>
+
+		</div>
+	</section>
+
+	<!--Package section--->
+	<section class="package" id="package">
+		<div class="title">
+			<h2>Our Upcoming <br> Tour Package</h2>
+		</div>
+
+		<div class="package-content">
+			<div class="box">
+				<div class="thum">
+					<img src="img/trekking.jpg">
+					<h3>$499</h3>
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>Trekking</h4>
+						<p>4h - 5h</p>
+					</div>
+					<div class="stars">
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="img/lion.jpeg">
+					<h3>$499</h3>
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>lion riding</h4>
+						<p>4h - 5h</p>
+					</div>
+					<div class="stars">
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="img/play.jpg">
+					<h3>$499</h3>
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>Jaguar</h4>
+						<p>4h - 5h</p>
+					</div>
+					<div class="stars">
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!--destination section--->
+	<section class="destination" id="destination">
+		<div class="title">
+			<h2>Our Most Popular <br> Travel Spot!</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="img/waterfall2.jpeg">
+				<h5>Phoenix Waterfall</h5>
+				<p>2Km from Main Gate</p>
+			</div>
+
+			<div class="col-content">
+				<img src="img/restaurant.jpg">
+				<h5>Venezu Restaurant</h5>
+				<p>1Km from Main Gate</p>
+			</div>
+
+			<div class="col-content">
+				<img src="img/bird.png">
+				<h5>Bird Post</h5>
+				<p>3.5Km from Main Gate</p>
+			</div>
+
+			<div class="col-content">
+				<img src="img/camping.jpg">
+				<h5>Camping Ground</h5>
+				<p>1Km from Main Gate</p>
+			</div>
+
+			<div class="col-content">
+				<img src="img/interact.jpg">
+				<h5>Interact with animal</h5>
+				<p>0.5km from Main Gate</p>
+			</div>
+
+			<div class="col-content">
+				<img src="img/hotel.jpg">
+				<h5>Our 4 star Hotel and Resort</h5>
+				<p>1Km from Main Gate</p>
+			</div>
+
+		</div>
+	</section>
+
+	<!--Newsletter--->
+	<section class="newsletter">
+		<div class="news-text">
+			<h2>Newsletter</h2>
+			<p>Subscribe For more info <br> and promotions.</p>
+		</div>
+
+		<div class="send">
+			<form>
+				<input type="email" placeholder="Write Your Email" required>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</section>
+
+	<!--footer--->
+	<section id="contact">
+		<div class="footer">
+			<div class="main">
+				<div class="list">
+					<h4>Quick Links</h4>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Tour</a></li>
+					</ul>
+				</div>
+
+				<div class="list">
+					<h4>Support</h4>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Tour</a></li>
+					</ul>
+				</div>
+
+				<div class="list">
+					<h4>Contact Info</h4>
+					<ul>
+						<li><a href="#">98 West 21th North</a></li>
+						<li><a href="#">Venezuela 10016</a></li>
+						<li><a href="#">+58(333)-333-333</a></li>
+						<li><a href="#">info@amuaywildlifepark.com</a></li>
+						<li><a href="#">+58(333)-333-333</a></li>
+					</ul>
+				</div>
+
+				<div class="list">
+					<h4>Connect</h4>
+					<div class="social">
+						<a href="#"><i class='bx bxl-facebook' ></i></a>
+						<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+						<a href="#"><i class='bx bxl-twitter' ></i></a>
+						<a href="#"><i class='bx bxl-linkedin' ></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="end-text">
+			<p>Web design Assignment - Group Roni George</p>
+		</div>
+	</section>
+
+	<!--link to js--->
+	<script type="text/javascript" src="js/script.js"></script>
 
 </body>
 </html>
